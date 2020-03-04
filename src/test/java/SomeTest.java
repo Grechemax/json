@@ -23,9 +23,12 @@ public class SomeTest {
     public void deserializeUserSimple() {
         GsonBuilder gsonBuilder = new GsonBuilder();
         UserObject[] targetArray = gsonBuilder.create().fromJson(getJson(), UserObject[].class);
+
         for (int i = 0; i < targetArray.length; i++) {
-            System.out.print(targetArray[i].name + "   email:");
-            System.out.println(targetArray[i].email);
+            System.out.print(targetArray[i].id + " ");
+            System.out.print(targetArray[i].name);
+            System.out.println("email: " + targetArray[i].email);
+            System.out.println("street: " + targetArray[i].address.street);
         }
     }
 }
