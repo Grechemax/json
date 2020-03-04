@@ -1,0 +1,31 @@
+[ {
+    "desc" : "medium rare",
+    "imagePath" : "https://cdn4.i-scmp.com/sites/default/files/styles/980x551/public/images/methode/2017/12/13/ff3ebef8-df1e-11e7-af98-bc68401a7f65_1280x720_173640.jpg?itok=HIZNYn1j",
+    "ingredients" : [ {
+      "amount" : 500,
+      "name" : "oil"
+    }, {
+      "amount" : 200,
+      "name" : "meat"
+    } ],
+    "name" : "My first recipe of tasty meat"
+  }, {
+    "desc" : "Baste with reserved marinade during cooking. Chicken is cooked when juices are clear. Serve with salad.",
+    "imagePath" : "http://img.taste.com.au/gZCOq1zZ/w720-h480-cfill-q80/taste/2016/11/sticky-chicken-drumsticks-24162-1.jpeg",
+    "name" : "Sticky chicken drumsticks"
+  }, {
+    "desc" : "The American biscuit is very similar to the British scone\nBritish scone",
+    "imagePath" : "https://i.ytimg.com/vi/dd1iRCadHkc/maxresdefault.jpg",
+    "ingredients" : [ {
+      "amount" : 34,
+      "name" : "eggs"
+    }, {
+      "amount" : 200,
+      "name" : "sugar"
+    }, {
+      "amount" : 500,
+      "name" : "milk"
+    } ],
+    "name" : "Biscuit Recipe"
+  } ]
+
